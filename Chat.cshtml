@@ -1,0 +1,419 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title> 房发现-开启精准智能找房时代</title>
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="keywords" content="成都房发现，房发现，成都商铺,成都高回报商铺,成都商铺出售,商铺投资,自用商铺,转角商铺,地铁铺,找铺平台,智能找房,热门房源,我要买商铺,自助选房,房发现,www.fangfaxian.com,fangfaxian.com,成都第一房产" />
+    <meta content="房发现-开启精准智能找房时代" name="description" />
+    <meta content="房发现-开启精准智能找房时代" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <!-- Bootstrap Core CSS -->
+    <link href="~/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="~/assets/css/modern-business.css" rel="stylesheet" />
+    <!-- Custom Fonts -->
+    <link href="~/assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/assets/extra/fonts.googleapis.com/css-family=Raleway-400,300,500,600,700,200,100,800" rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="~/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/assets/plugins/iCheck/skins/all.css">
+    <link rel="stylesheet" href="~/assets/plugins/perfect-scrollbar/src/perfect-scrollbar.css">
+    <link rel="stylesheet" href="~/assets/plugins/animate.css/animate.min.css">
+    <!-- end: MAIN CSS-->
+    <!-- start: CORE CSS -->
+    <link rel="stylesheet" href="~/assets/css/styles.css" />
+    <link rel="stylesheet" href="~/assets/css/styles-responsive.css" />
+    <link rel="stylesheet" href="~/assets/css/plugins.css" />
+    <link rel="stylesheet" href="~/assets/css/print.css" type="text/css" media="print" />
+    <!-- end: CORE CSS -->
+    <link rel="shortcut icon" href="~/assets/images/FNB_Icon.png" type="image/icon" />
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- jQuery -->
+    <title>咨询</title>
+    <style type="text/css">
+        /*公共样式*/
+        body, h1, h2, h3, h4, p, ul, ol, li, form, button, input, textarea, th, td {
+            margin: 0;
+            padding: 0
+        }
+
+        body, button, input, select, textarea {
+            font: 12px/1.5 Microsoft YaHei UI Light,tahoma,arial,"\5b8b\4f53";
+            *line-height: 1.5;
+            -ms-overflow-style: scrollbar
+        }
+
+        h1, h2, h3, h4 {
+            font-size: 100%
+        }
+
+        ul, ol {
+            list-style: none
+        }
+
+        a {
+            text-decoration: none
+        }
+
+            a:hover {
+                text-decoration: underline
+            }
+
+        img {
+            border: 0
+        }
+
+        button, input, select, textarea {
+            font-size: 100%
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        /*rem*/
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            font: 12px/1.5 "microsoft yahei", 'tahoma';
+        }
+
+            body .mobile-page {
+                font-size: 1rem;
+            }
+
+        /*浮动*/
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .clearfix:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        body {
+            background-color: #F5F5F5;
+        }
+
+        .mobile-page {
+            max-width: 600px;
+        }
+
+            .mobile-page .admin-img, .mobile-page .user-img {
+                width: 30px;
+                height: 30px;
+            }
+
+        i.triangle-admin, i.triangle-user {
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 10px;
+            display: inline-block;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+
+        .mobile-page i.triangle-admin {
+            left: 4px;
+            border-right: 12px solid #edf4c1;
+        }
+
+        .mobile-page i.triangle-user {
+            right: 4px;
+            border-left: 12px solid #9EEA6A;
+        }
+
+        .mobile-page .admin-group, .mobile-page .user-group {
+            padding: 6px;
+            display: flex;
+            display: -webkit-flex;
+        }
+
+        .mobile-page .admin-group {
+            justify-content: flex-start;
+            -webkit-justify-content: flex-start;
+        }
+
+        .mobile-page .user-group {
+            justify-content: flex-end;
+            -webkit-justify-content: flex-end;
+        }
+
+        .mobile-page .admin-reply, .mobile-page .user-reply {
+            display: inline-block;
+            padding: 4px;
+            border-radius: 4px;
+            background-color: #edf4c1;
+            margin: 0 15px 12px;
+        }
+
+        .mobile-page .admin-reply {
+            box-shadow: 0px 0px 2px #ddd;
+        }
+
+        .mobile-page .user-reply {
+            text-align: left;
+            background-color: #9EEA6A;
+            box-shadow: 0px 0px 2px #bbb;
+        }
+
+        .mobile-page .user-msg, .mobile-page .admin-msg {
+            width: 75%;
+            position: relative;
+        }
+
+        .mobile-page .user-msg {
+            text-align: right;
+        }
+    </style>
+</head>
+<body onkeydown="BindEnter(event)" onbeforeunload="checkLeave()">
+
+    <input style="display:none;" id="cid" value="@ViewBag.id" />
+    <input style="display:none;" id="itemid" value="@ViewBag.itemid" />
+
+    <div class="modal-dialog" role="document" id="note_box" style="display:@ViewBag.note_box">
+        <form id="form1">
+            <div class="panel-heading">
+                <h3 class="panel-title">免费预约<small>(*严格保密)</small></h3>
+            </div>
+
+            <div class="panel-body">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">姓名</span>
+                    <input type="text" id="txtClientName" name="txtClientName" class="form-control" placeholder="您的姓名">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon2">电话</span>
+                    <input type="text" id="txtMemberTel" name="txtMemberTel" class="form-control" placeholder="您的电话">
+                </div>
+            </div>
+
+            <div class="errorHandler"></div>
+            <div class="panel-footer">
+                <button type="submit" class="btn btn-success btn-block"><i class="glyphicon glyphicon-phone"></i>&nbsp;预约看房获豪礼！</button>
+            </div>
+
+        </form>
+    </div>
+    <div class="modal-dialog" role="document" style="display:@ViewBag.chat_box" id="chat_box">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">正在咨询......</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group mobile-page" id="infor_border" style="height:200px;overflow-y:auto;overflow-x: hidden;">
+                    <div style="display:none;"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <textarea class="form-control" id="message-text" style="height:100px;"></textarea>
+                <br />
+                <button type="button" id="button" class="btn btn-primary" onclick="Send()">发送</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/assets/plugins/jQuery/jquery-2.1.1.min.js"></script>
+    <script src="~/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/assets/js/main.js" charset="gbk"></script>
+    <script src="~/assets/js/jquery-heartbeat.js"></script>
+    <script src="~/assets/js/jquery.validate.min.js"></script>
+    <script src="~/assets/plugins/jquery-ui/jquery-ui-1.10.2.custom.min.js"></script>
+    <script src="~/assets/plugins/blockUI/jquery.blockUI.js"></script>
+    <!-- end: CORE JAVASCRIPTS  -->
+    <script type="text/javascript">
+        var note= 0;//0没有消息提示，1 有消息提示
+        var timerArr;
+         (function ($) {
+            $.extend({
+                /**
+                * 调用方法： var timerArr = $.blinkTitle.show();
+                * $.blinkTitle.clear(timerArr);
+                */
+                blinkTitle: {
+                    show: function () { //有新消息时在title处闪烁提示
+                        var step = 0, _title = document.title;
+                        var timer = setInterval(function () {
+                            step++;
+                            if (step == 3) {
+                                step = 1
+                            }
+
+                            if (step == 1) {
+                                document.title =  _title
+                            }
+
+                            if (step == 2) {
+                                document.title = '【新消息】' + _title
+                            }
+
+                        }, 500);
+                        return [timer, _title];
+                    },
+
+                    //param timerArr[0], timer标记
+                    //param timerArr[1], 初始的title文本内容
+                    clear: function (timerArr) { //去除闪烁提示，恢复初始title文本
+                        if (timerArr) {
+                            clearInterval(timerArr[0]);
+                            document.title = timerArr[1];
+                        }
+
+                    }
+                }
+            });
+        })(jQuery);
+        //在关闭页面时弹出确认提示窗口
+         function checkLeave() {
+             event.returnValue = "确定离开当前页面吗？";
+         }
+        var clentid = $('#cid').val();
+        var itemid = $('#itemid').val();
+        var sendto = "@ViewBag.MemberID";
+        var pic = "http://hd.fangniubang.com/" +"@ViewBag.img";
+        function Send() {
+            if (note == 1) {
+                $.blinkTitle.clear(timerArr);
+            }
+            var name = "我：";
+            var message = $('#message-text').val();
+            $('#message-text').val("");
+            var element = document.getElementById("infor_border");
+            if (message != "" && itemid !="") {
+                $.ajax({
+                    type: "Post",
+                    url: 'http://serve.fangniubang.com/ajaxFunction.aspx?ACTION=SendMessage',
+                    data: "{ FromID:'" + clentid + "',"
+                    + "Content:'" + message + "',"
+                    + "SentID:'" + sendto + "',"
+                    + "ServeID:'" + itemid + "'"
+                    + "}",
+                    dataType: "json",
+                    success: function (data) {
+                        //var result = data.d;
+
+                        console.log(data);
+                        if (data.d == true && data.FromID != "") {
+                            clentid = data.FromID;
+                            $('#infor_border').append("");
+                            $('#infor_border').append("<div class='admin-group'> <img class='admin-img' src='/Content/Customer.png' /><div class='admin-msg'><i class='triangle-admin'></i><span class='admin-reply'>"+ message +"</span></div></div>")
+                            element.children("div:last-child")[0].scrollIntoView();
+                        }
+                        else {
+                            $('#infor_border').append("</br><div class='pull-left'></div></br><div class='pull-left' style='margin-top:10px;margin-right:10px;margin-left:30px;padding:10px;border-radius:10px;'>" + "网络错误请重新再试！" + "</div></br>");
+                            element.children("div:last-child")[0].scrollIntoView();
+                        }
+                    },
+
+                });
+            }
+        }
+        function BindEnter(obj) {     //使用document.getElementById获取到按钮对象
+            var button = document.getElementById('button');
+            if (obj.keyCode == 13) {
+                button.click();
+                obj.returnValue = false;
+            }
+        }
+        var $btn = $('.playbtn');
+        var $telephone = $('#txtMemberTel');
+        var $teleType = "0";
+        var cjresult = "";
+        $(document).ready(function () {
+            console.log("clentid");
+                console.log(clentid);
+                $.jheartbeat.set({
+                    url: "http://serve.fangniubang.com/ajaxFunction.aspx?ACTION=GetMessages&SentTo=" + clentid, // The URL that jHeartbeat will retrieve
+                    // url: "ajax/ajaxFunction.aspx?ACTION=GetMessage",
+                    delay: 1500, // How often jHeartbeat should retrieve the URL
+                    div_id: "infor_border" // Where the data will be appended.
+                    , function() {
+                        // Callback Function
+                        console.log("test3");
+                    }
+                });
+            runValidator2();
+        });
+        function runValidator2() {
+            var form2 = $('#form1');
+            var errorHandler2 = $('.errorHandler', form2);
+            form2.validate({
+                errorElement: "label", // contain the error msg in a small tag
+                errorPlacement: function (error, element) { // render error placement for each input type
+                    $('.input-group').after(error);
+                },
+                rules: {
+                    txtMemberTel: {
+                        maxlength: 11,
+                        minlength: 11,
+                        required: true,
+                    },
+                    txtClientName: "required",
+
+                },
+                messages: {//错误消息
+                    txtClientName: "请输入你的姓名",
+                    txtMemberTel: {
+                        maxlength: "请输入正确的电话号码",
+                        minlength: "请输入正确的电话号码",
+                        required: "请输入你的电话号码",
+                    },
+                },
+                invalidHandler: function (event, validator) { //display error alert on form submit
+                    errorHandler2.show();
+                },
+                submitHandler: function (form) {
+                    errorHandler2.hide();
+                    AddMemberInfo();
+                }
+            });
+        };
+        function AddMemberInfo() {
+            $.ajax({
+                type: "Post",
+                url: "http://serve.fangniubang.com/ajaxFunction.aspx?action=AddGameMember",
+                data: "{ ActItemID:'00000000',"
+                + "ActMemberName:'" + $('#txtClientName').val() + "',"
+                + "ActMemberTel:'" + $('#txtMemberTel').val() + "'"
+                + "}",
+                dataType: "json",
+                success: function (data) {
+                    console.log(data);
+                    console.log(data.result);
+                    $telephone.attr("disabled", "disabled");
+                    if (data.result == true) {
+                        alert("提交成功");
+                    }
+                    else {
+                        //swal("网络错误请重新再试", "网络错误");
+                        alert("网络错误请重新再试");
+                    }
+                },
+            });
+        }
+    </script>
+</body>
+</html>
